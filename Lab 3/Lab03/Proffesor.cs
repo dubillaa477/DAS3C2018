@@ -20,7 +20,7 @@
 
             }
 
-            return "PROFESSOR: " + base.GetSummary() + " Courses:" + courseString;
+            return "PROFESSOR : " + base.GetSummary() + " Courses:" + courseString;
         }
     }
 }

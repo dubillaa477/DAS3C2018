@@ -17,11 +17,11 @@ namespace Lab05
         }
 
         public static void PrintPerson(Student student) {
-            Console.WriteLine(student.FormatIdAndName("Daniel Ubilla", 1));
+            Console.Write(student.FormatIdAndName("Daniel Ubilla", 1));
         }
 
         public static void PrintPerson(StudentC studentC) {
-            Console.WriteLine(studentC.FormatIdAndName("Daniel Ubilla", 1));
+            Console.Write(studentC.FormatIdAndName("Daniel Ubilla", 1));
         } 
     }
 }
